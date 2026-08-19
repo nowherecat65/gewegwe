@@ -239,10 +239,10 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000d70";
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#8a8a8a";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
-document.getElementsByClassName("game_header")[0].style.backgroundImage = "linear-gradient(180deg, #051579 0%, #000d70 52%, #000a68 100%)";
+document.getElementsByClassName("game_header")[0].style.backgroundImage = "linear-gradient(180deg, #0A197A 0%, #000D70 50%, #020963 100%)";
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
-$("#game_window")[0].style.backgroundImage = "linear-gradient(180deg, #909090 0%, #8a8a8a 52%, #848484 100%)";
+$("#game_window")[0].style.backgroundImage = "linear-gradient(180deg, #929292 0%, #8A8A8A 50%, #828282 100%)";
 
 $(".container")[0].style.backgroundColor = "#FFFFFF";
 
@@ -257,59 +257,53 @@ style.type = 'text/css';
 style.id = 'dynamic-style';
 
 style.innerHTML = `
+  /*
+   * 1984 Hart: restrained "New Generation" treatment
+   * Three-stop gradients, one vertical axis, original colors preserved.
+   */
+
+  .game_header {
+    background-color: #000d70 !important;
+    background-image: linear-gradient(180deg, #0A197A 0%, #000D70 50%, #020963 100%) !important;
+  }
+
+  #game_window {
+    background-color: #8a8a8a !important;
+    background-image: linear-gradient(180deg, #929292 0%, #8A8A8A 50%, #828282 100%) !important;
+  }
+
   .campaign_trail_start_emphasis {
     background-color: #8a8a8a;
-    background-image: linear-gradient(180deg, #909090 0%, #8a8a8a 52%, #848484 100%);
+    background-image: linear-gradient(180deg, #919191 0%, #8A8A8A 50%, #838383 100%);
   }
 
-  #state_info h3 {
+  #state_info h3,
+  #state_result h3,
+  #overall_result h3,
+  .overlay_window h3,
+  .inner_window_question h3 {
     background-color: #b3b3b3;
-    background-image: linear-gradient(180deg, #b8b8b8 0%, #b3b3b3 52%, #aeaeae 100%);
-  }
-
-  #state_result h3 {
-    background-color: #b3b3b3;
-    background-image: linear-gradient(180deg, #b8b8b8 0%, #b3b3b3 52%, #aeaeae 100%);
-  }
-
-  #overall_result h3 {
-    background-color: #b3b3b3;
-    background-image: linear-gradient(180deg, #b8b8b8 0%, #b3b3b3 52%, #aeaeae 100%);
+    background-image: linear-gradient(180deg, #BCBCBC 0%, #B3B3B3 50%, #AAAAAA 100%);
   }
 
   #map_footer {
     padding-top: 3em;
   }
 
-  .overlay_window h3 {
-    background-color: #b3b3b3;
-    background-image: linear-gradient(180deg, #b8b8b8 0%, #b3b3b3 52%, #aeaeae 100%);
-  }
-
-  .inner_window_question h3 {
-    background-color: #b3b3b3;
-    background-image: linear-gradient(180deg, #b8b8b8 0%, #b3b3b3 52%, #aeaeae 100%);
-  }
-
-  #overall_result_container {
-    background-color: #8a8a8a;
-    background-image: linear-gradient(180deg, #909090 0%, #8a8a8a 52%, #848484 100%);
-  }
-
+  #overall_result_container,
   #state_result_container {
     background-color: #8a8a8a;
-    background-image: linear-gradient(180deg, #909090 0%, #8a8a8a 52%, #848484 100%);
+    background-image: linear-gradient(180deg, #919191 0%, #8A8A8A 50%, #838383 100%);
   }
 
   #campaign_sign {
     background-color: #000d70;
-    background-image: linear-gradient(180deg, #051579 0%, #000d70 52%, #000a68 100%);
+    background-image: linear-gradient(180deg, #020F72 0%, #000D70 50%, #000C6D 100%);
     border-color: #8a8a8a;
   }
 
   #map_container {
-    background-color: #FFFFFF;
-    background-image: linear-gradient(180deg, #FFFFFF 0%, #FCFCFC 55%, #F8F8F8 100%);
+    background: #FFFFFF;
     border-radius: 1px;
     box-shadow:
       inset 0 0 4px rgba(0, 0, 0, 0.08),
@@ -323,12 +317,7 @@ style.innerHTML = `
 
   #menu_container {
     background-color: #8a8a8a !important;
-    background-image: linear-gradient(180deg, #909090 0%, #8a8a8a 52%, #848484 100%) !important;
-  }
-
-  .inner_window_w_desc {
-    background-color: #8a8a8a !important;
-    background-image: linear-gradient(180deg, #8f8f8f 0%, #8a8a8a 52%, #858585 100%) !important;
+    background-image: linear-gradient(180deg, #919191 0%, #8A8A8A 50%, #838383 100%) !important;
   }
 
   a:-webkit-any-link {
