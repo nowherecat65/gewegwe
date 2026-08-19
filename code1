@@ -29,7 +29,7 @@ campaignTrail_temp.candidate_json = [
             "state": "California",
             "priority": 1,
             "description": "<p><b>NOT PLAYABLE, HERE FOR DESCRIPTION!!!</b></p>\n<p>Ronald Wilson Reagan became the 40th president after defeating then-incumbent president Jimmy Carter. But before this, he was a very well-known actor starring in movies such as Bedtime for Bonzo, where he famously almost got strangled by Bonzo, who was a chimpanzee. After he finished his acting career, he entered politics, became the Governor of California, and famously gave his \"A Time for Choosing\" speech in 1964.</p>\n<p> Then, in 1976, he ran for president and barely lost the Republican Nomination to incumbent President Gerald Ford. Four years later, he would become president in a landslide victory. However, two months into his term, he was nearly killed by an assassin; however, he ended up recovering and continued his term. His presidency has been eventful, but he remains extremely popular and is the favorite for the upcoming election.</p>",
-            "color_hex": "#B52B2B",
+            "color_hex": "#C64B50",
             "secondary_color_hex": null,
             "is_active": 1,
             "image_url": "https://i.imgur.com/gSF2YKB.png",
@@ -52,7 +52,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Colorado",
             "priority": 2,
             "description": "<p>Gary Warren Hart is the current Senator from Colorado. Before entering elected office, he served as George McGovern's campaign manager during his 1972 presidential run. Hart was first elected to the Senate in 1974 in a landslide victory over incumbent Peter Dominick and, in 1980, was re-elected in a narrow victory over Mary Estill Buchanan.</p><p>Now it's 1984, and Hart has won the Democratic nomination after an insurgent campaign built around a ''new generation of leadership'' and a promise of ''new ideas.'' Once a little-known long shot, Hart's surprising rise through the primaries was fueled by younger voters, independents, and college graduates, carrying him through a long and hard-fought battle with former Vice President Walter Mondale for the nomination. Unfortunately for Hart, there are some scandals surrounding him, which will not help his campaign. Hart is expected to lose this election, but could he shock everyone and put up a fight? Only time will tell.</p> ",
-            "color_hex": "#000D70",
+            "color_hex": "#2448A5",
             "secondary_color_hex": null,
             "is_active": 1,
             "image_url": "https://i.imgur.com/1O5mbyS.png",
@@ -75,7 +75,7 @@ campaignTrail_temp.candidate_json = [
             "state": "California",
             "priority": 3,
             "description": "'",
-            "color_hex": "#C4A02E",
+            "color_hex": "#D6AD2F",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "'",
@@ -98,7 +98,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Virginia",
             "priority": 4,
             "description": "'",
-            "color_hex": "#2B8454",
+            "color_hex": "#2D9A62",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "'",
@@ -121,7 +121,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Texas",
             "priority": 5,
             "description": "<p>Put description here</p>",
-            "color_hex": "#B52B2B",
+            "color_hex": "#C64B50",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/QQpi0aM.png",
@@ -144,7 +144,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Texas",
             "priority": 8,
             "description": "<p>Put description here</p>",
-            "color_hex": "#000D70",
+            "color_hex": "#2448A5",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/das6iQ2.png",
@@ -167,7 +167,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Arkansas",
             "priority": 9,
             "description": "<p>Put description here</p>",
-            "color_hex": "#000D70",
+            "color_hex": "#2448A5",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/G4n4OeM.png",
@@ -190,7 +190,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Connecticut",
             "priority": 12,
             "description": "'",
-            "color_hex": "#C4A02E",
+            "color_hex": "#D6AD2F",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "'",
@@ -213,7 +213,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Mississippi",
             "priority": 13,
             "description": "'",
-            "color_hex": "#2B8454",
+            "color_hex": "#2D9A62",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "'",
@@ -331,7 +331,7 @@ campaignTrail_temp.temp_election_list = [
 ]
 
 jet_data = {
-    "headerColor": "#000d70",
+    "headerColor": "#2448A5",
     "windowColor": "#8a8a8a",
     "containerColor": "#FFFFFF",
     "innerWindowColor": "#8a8a8a",
@@ -347,12 +347,12 @@ jet_data = {
 corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“Life is a classroom. We are both student and teacher. Each day is a test. And each day we receive a passing or failing grade in one particular subject: grace." - Gary Hart</em></font>\n            ';
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000d70";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#2448A5";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#8a8a8a";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
-document.getElementsByClassName("game_header")[0].style.backgroundImage = "linear-gradient(180deg, #061574 0%, #000D70 50%, #010B69 100%)";
+document.getElementsByClassName("game_header")[0].style.backgroundImage = "linear-gradient(180deg, #294DA9 0%, #2448A5 50%, #20429B 100%)";
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 $("#game_window")[0].style.backgroundImage = "linear-gradient(180deg, #8E8E8E 0%, #8A8A8A 50%, #868686 100%)";
@@ -370,14 +370,9 @@ style.type = 'text/css';
 style.id = 'dynamic-style';
 
 style.innerHTML = `
-  /*
-   * 1984 Hart: restrained "New Generation" treatment
-   * Three-stop gradients, one vertical axis, original colors preserved.
-   */
-
   .game_header {
-    background-color: #000d70 !important;
-    background-image: linear-gradient(180deg, #061574 0%, #000D70 50%, #010B69 100%) !important;
+    background-color: #2448A5 !important;
+    background-image: linear-gradient(180deg, #294DA9 0%, #2448A5 50%, #20429B 100%) !important;
   }
 
   #game_window {
@@ -387,7 +382,7 @@ style.innerHTML = `
 
   .campaign_trail_start_emphasis {
     background-color: #8a8a8a;
-    background-image: linear-gradient(180deg, #8D8D8D 0%, #8A8A8A 50%, #878787 100%);
+    background-image: linear-gradient(180deg, #8E8E8E 0%, #8A8A8A 50%, #868686 100%);
   }
 
   #state_info h3,
@@ -396,7 +391,7 @@ style.innerHTML = `
   .overlay_window h3,
   .inner_window_question h3 {
     background-color: #b3b3b3;
-    background-image: linear-gradient(180deg, #B8B8B8 0%, #B3B3B3 50%, #AEAEAE 100%);
+    background-image: linear-gradient(180deg, #B7B7B7 0%, #B3B3B3 50%, #AFAFAF 100%);
   }
 
   #map_footer {
@@ -406,12 +401,12 @@ style.innerHTML = `
   #overall_result_container,
   #state_result_container {
     background-color: #8a8a8a;
-    background-image: linear-gradient(180deg, #8D8D8D 0%, #8A8A8A 50%, #878787 100%);
+    background-image: linear-gradient(180deg, #8E8E8E 0%, #8A8A8A 50%, #868686 100%);
   }
 
   #campaign_sign {
-    background-color: #000d70;
-    background-image: linear-gradient(180deg, #010E71 0%, #000D70 50%, #000C6F 100%);
+    background-color: #2448A5;
+    background-image: linear-gradient(180deg, #274BA8 0%, #2448A5 50%, #21439D 100%);
     border-color: #8a8a8a;
   }
 
@@ -430,7 +425,7 @@ style.innerHTML = `
 
   #menu_container {
     background-color: #8a8a8a !important;
-    background-image: linear-gradient(180deg, #8D8D8D 0%, #8A8A8A 50%, #878787 100%) !important;
+    background-image: linear-gradient(180deg, #8E8E8E 0%, #8A8A8A 50%, #868686 100%) !important;
   }
 
   a:-webkit-any-link {
