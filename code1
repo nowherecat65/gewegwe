@@ -1,3 +1,277 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 15,
+        "fields": {
+            "year": 1988,
+            "summary": "<p>The 1984 election begins with two candidates: incumbent Republican President Ronald Reagan and Democratic Colorado Senator Gary Hart. Hart won the Democratic nomination with some competition, but his main competitor, former Vice President Walter Mondale, declined to run due to Reagan's popularity.</p> <ul><li>Ronald Reagan is the favorite to win the election due to his popularity. He must focus on his achievements from the past four years and create new promises for the next four years if he wins.</li><li>Gary Hart is the underdog this election and is expected to lose. However, he could make this election interesting if he mostly talks about Reagan's weaknesses and policies he plans to bring up if elected.</li></ul>",
+            "image_url": "https://i.imgur.com/rmkb1Ml.jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/2qSrnx5.png",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg",
+            "creator": "General_Rise8708",
+            "display_year": "1984 Hart"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 152,
+        "fields": {
+            "first_name": "Ronald W.",
+            "last_name": "Reagan",
+            "election": 15,
+            "party": "Republican",
+            "state": "California",
+            "priority": 1,
+            "description": "<p><b>NOT PLAYABLE, HERE FOR DESCRIPTION!!!</b></p>\n<p>Ronald Wilson Reagan became the 40th president after defeating then-incumbent president Jimmy Carter. But before this, he was a very well-known actor starring in movies such as Bedtime for Bonzo, where he famously almost got strangled by Bonzo, who was a chimpanzee. After he finished his acting career, he entered politics, became the Governor of California, and famously gave his \"A Time for Choosing\" speech in 1964.</p>\n<p> Then, in 1976, he ran for president and barely lost the Republican Nomination to incumbent President Gerald Ford. Four years later, he would become president in a landslide victory. However, two months into his term, he was nearly killed by an assassin; however, he ended up recovering and continued his term. His presidency has been eventful, but he remains extremely popular and is the favorite for the upcoming election.</p>",
+            "color_hex": "#b82828",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/gSF2YKB.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 153,
+        "fields": {
+            "first_name": "Gary W. ",
+            "last_name": "Hart",
+            "election": 15,
+            "party": "Democrat",
+            "state": "Colorado",
+            "priority": 2,
+            "description": "<p>Gary Warren Hart is the current Senator from Colorado. Before entering elected office, he served as George McGovern's campaign manager during his 1972 presidential run. Hart was first elected to the Senate in 1974 in a landslide victory over incumbent Peter Dominick and, in 1980, was re-elected in a narrow victory over Mary Estill Buchanan.</p><p>Now it's 1984, and Hart has won the Democratic nomination after an insurgent campaign built around a ''new generation of leadership'' and a promise of ''new ideas.'' Once a little-known long shot, Hart's surprising rise through the primaries was fueled by younger voters, independents, and college graduates, carrying him through a long and hard-fought battle with former Vice President Walter Mondale for the nomination. Unfortunately for Hart, there are some scandals surrounding him, which will not help his campaign. Hart is expected to lose this election, but could he shock everyone and put up a fight? Only time will tell.</p> ",
+            "color_hex": "#1818bf",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/1O5mbyS.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 154,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Bergland",
+            "election": 15,
+            "party": "Libertarian",
+            "state": "California",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 155,
+        "fields": {
+            "first_name": "Lyndon",
+            "last_name": "LaRouche/Other",
+            "election": 15,
+            "party": "Independent",
+            "state": "Virginia",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 156,
+        "fields": {
+            "first_name": "George H.W ",
+            "last_name": "Bush",
+            "election": 15,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 5,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#b82828",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/QQpi0aM.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>George HW Bush is the incumbent Vice President and has been a popular one at that. Before he was Vice President, he was the 11th Director of the CIA, an ambassador to the United Nations, and a representative from his home state of Texas. He ran his own campaign in 1980 but suspended his campaign and later endorsed Reagan. Reagan then selected Bush as his VP, and they won against Incumbent President Jimmy Carter in a landslide victory.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 159,
+        "fields": {
+            "first_name": "Lloyd",
+            "last_name": "Bentsen",
+            "election": 15,
+            "party": "Democrat",
+            "state": "Texas",
+            "priority": 8,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/das6iQ2.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Lloyd Bentsen ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 160,
+        "fields": {
+            "first_name": "Dale",
+            "last_name": "Bumpers",
+            "election": 15,
+            "party": "Democrat",
+            "state": "Arkansas",
+            "priority": 9,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/G4n4OeM.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 163,
+        "fields": {
+            "first_name": "Jim",
+            "last_name": "Lewis",
+            "election": 15,
+            "party": "Libertarian",
+            "state": "Connecticut",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 164,
+        "fields": {
+            "first_name": "Billy",
+            "last_name": "Davis",
+            "election": 15,
+            "party": "Independent",
+            "state": "Mississippi",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 106,
+        "fields": {
+            "candidate": 155,
+            "running_mate": 164
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 105,
+        "fields": {
+            "candidate": 154,
+            "running_mate": 163
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 101,
+        "fields": {
+            "candidate": 153,
+            "running_mate": 159
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 98,
+        "fields": {
+            "candidate": 152,
+            "running_mate": 156
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 102,
+        "fields": {
+            "candidate": 153,
+            "running_mate": 160
+        }
+    }
+]
+
+campaignTrail_temp.credits = "General_Rise8708"
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -23,197 +297,36 @@ campaignTrail_temp.global_parameter_json = [
     }
 ]
 
-campaignTrail_temp.election_json = [
-    {
-        "model": "campaign_trail.election",
-        "pk": 20,
-        "fields": {
-            "year": 2016,
-            "display_year": "1984 Hart",
-            "summary": "<p>The 1984 election begins with two candidates: incumbent Republican President Ronald Reagan and Democratic Colorado Senator Gary Hart. Hart won the Democratic nomination with some competition, but his main competitor, former Vice President Walter Mondale, declined to run due to Reagan's popularity.</p> <ul><li>Ronald Reagan is the favorite to win the election due to his popularity. He must focus on his achievements from the past four years and create new promises for the next four years if he wins.</li><li>Gary Hart is the underdog this election and is expected to lose. However, he could make this election interesting if he mostly talks about Reagan's weaknesses and policies he plans to bring up if elected.</li></ul>",
-            "image_url": "https://i.imgur.com/rmkb1Ml.jpeg",
-            "winning_electoral_vote_number": 270,
-            "advisor_url": "https://i.imgur.com/2qSrnx5.png",
-            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
-            "has_visits": 1,
-            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
-        }
-    }
-]
-
-campaignTrail_temp.temp_election_list = [
-    {
-        "id": 20,
-        "year": 2016,
-        "is_premium": 0,
-        "display_year": "1984 Hart"
-    }
-]
-
-campaignTrail_temp.credits = "General_Rise8708"
-
-campaignTrail_temp.candidate_json = [
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 152,
-        "fields": {
-            "first_name": "Ronald W.",
-            "last_name": "Reagan",
-            "election": 20,
-            "party": "Republican",
-            "state": "California",
-            "priority": 1,
-            "description": "<p><b>NOT PLAYABLE, HERE FOR DESCRIPTION!!!</b></p>\n<p>Ronald Wilson Reagan became the 40th president after defeating then-incumbent president Jimmy Carter. But before this, he was a very well-known actor starring in movies such as Bedtime for Bonzo, where he famously almost got strangled by Bonzo, who was a chimpanzee. After he finished his acting career, he entered politics, became the Governor of California, and famously gave his \"A Time for Choosing\" speech in 1964.</p>\n<p> Then, in 1976, he ran for president and barely lost the Republican Nomination to incumbent President Gerald Ford. Four years later, he would become president in a landslide victory. However, two months into his term, he was nearly killed by an assassin; however, he ended up recovering and continued his term. His presidency has been eventful, but he remains extremely popular and is the favorite for the upcoming election.</p>",
-            "color_hex": "#b82828",
-            "secondary_color_hex": null,
-            "is_active": 1,
-            "image_url": "https://i.imgur.com/gSF2YKB.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 452,
-        "fields": {
-            "first_name": "George H.W ",
-            "last_name": "Bush",
-            "election": 20,
-            "party": "Republican",
-            "state": "Texas",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#b82828",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/QQpi0aM.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>George HW Bush is the incumbent Vice President and has been a popular one at that. Before he was Vice President, he was the 11th Director of the CIA, an ambassador to the United Nations, and a representative from his home state of Texas. He ran his own campaign in 1980 but suspended his campaign and later endorsed Reagan. Reagan then selected Bush as his VP, and they won against Incumbent President Jimmy Carter in a landslide victory.</p>",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 153,
-        "fields": {
-            "first_name": "Gary W. ",
-            "last_name": "Hart",
-            "election": 20,
-            "party": "Democratic",
-            "state": "Colorado",
-            "priority": 1,
-            "description": "<p>Gary Warren Hart is the current Senator from Colorado. Before entering elected office, he served as George McGovern's campaign manager during his 1972 presidential run. Hart was first elected to the Senate in 1974 in a landslide victory over incumbent Peter Dominick and, in 1980, was re-elected in a narrow victory over Mary Estill Buchanan.</p><p>Now it's 1984, and Hart has won the Democratic nomination after an insurgent campaign built around a ''new generation of leadership'' and a promise of ''new ideas.'' Once a little-known long shot, Hart's surprising rise through the primaries was fueled by younger voters, independents, and college graduates, carrying him through a long and hard-fought battle with former Vice President Walter Mondale for the nomination. Unfortunately for Hart, there are some scandals surrounding him, which will not help his campaign. Hart is expected to lose this election, but could he shock everyone and put up a fight? Only time will tell.</p> ",
-            "color_hex": "#1818bf",
-            "secondary_color_hex": null,
-            "is_active": 1,
-            "image_url": "https://i.imgur.com/1O5mbyS.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 453,
-        "fields": {
-            "first_name": "Lloyd",
-            "last_name": "Bentsen",
-            "election": 20,
-            "party": "Democratic",
-            "state": "Texas",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/das6iQ2.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "Lloyd Bentsen ",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 454,
-        "fields": {
-            "first_name": "Dale",
-            "last_name": "Bumpers",
-            "election": 20,
-            "party": "Democratic",
-            "state": "Arkansas",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/G4n4OeM.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    }
-]
-
-campaignTrail_temp.running_mate_json = [
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 173121,
-        "fields": {
-            "candidate": 152,
-            "running_mate": 452
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 89901,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 453
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 118493,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 454
-        }
-    }
-]
-
 campaignTrail_temp.opponents_default_json = [
     {
-        "election": 20,
+        "election": 15,
         "candidates": [
             152,
-            153
+            153,
+            154,
+            155
         ]
     }
 ]
 
 campaignTrail_temp.opponents_weighted_json = [
     {
-        "election": 20,
+        "election": 15,
         "candidates": [
             152,
-            153
+            153,
+            154,
+            155
         ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 15,
+        "year": 1988,
+        "is_premium": 0,
+        "display_year": "1984 Hart"
     }
 ]
 
